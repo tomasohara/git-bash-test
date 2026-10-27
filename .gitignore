@@ -5,3 +5,8 @@ _stash.zip
 
 # Any files starting with _temp
 **/_temp*
+
+# Allow temporary files like temp-hello-kitty.txt
+# note: use _temp for truly temporary (e.g., _temp-hello-kitty.txt).
+# based on Gemini 4 Argon tip
+!temp-*
